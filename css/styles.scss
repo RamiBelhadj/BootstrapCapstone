@@ -1,0 +1,40 @@
+#logo {
+	border-radius: 50px;
+	}
+
+.row-header {
+	margin: 0px auto;
+	padding: 0px 10px; 
+	
+	}
+
+.card:hover {
+	transform: scale(1.1);
+	transition: 2s;
+	}
+
+.jumbotron {
+	margin: 0px auto;
+	padding: 70px 30px;
+	background-color: white;
+	border-bottom: 1px ridge;
+	border-radius: 0;
+	}
+
+#main {
+	padding: 70px 25px;
+	}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 50px 0px 0px 0px;
+	z-index: 0; 
+	}
+
+.footer {
+	border-top: 1px ridge;
+	font-size: 15px;
+	margin: 0px auto;
+	}
+
+

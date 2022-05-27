@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<title>PizzaHOT</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Pizzeria Landing Page">
+		<meta name="author" content="John Carlo Fababeir">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+			<a class="navbar-brand ml-md-5" href="#"><img src="img/logo.png" width="40" height="40" class="d-inline-block" id="logo"alt=""> PizzaHOT</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav ml-auto mr-5 text-center text-sm-left">
+					<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+				</ul>
+			</div>
+		</nav>
+		<header class="jumbotron">
+			<div class="container">
+				<div class="row row-header">
+					<div class="col-sm-8 col-md-9 mb-5 offset-1 offset-sm-0">
+						<h1>PizzaHOT<br>Pizzeria</h1>
+						<p>Home of the Finest Pizza in Quezon City since ever</p>
+					</div>
+					<div class="col-sm-4 col-md-3 offset-1 offset-sm-0">
+						<ul class=" list-unstyled list-group mb-4 font-weight-light">
+							<li>Delicious Pizza</li>
+							<li>Budget Meal</li>
+							<li>Discounts</li>
+							<li>Loyalty Cards</li>
+							<li>Free Delivery with <br>Minimum order of<br>15 euros</li>
+						</ul>
+						<div class="mb-3 text-left">
+							<a type="button" href="#"class="btn btn-warning" data-toggle="modal" data-target="#details"><strong>For more details <br>Click Here!</strong></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Modal -->
+		<div class="modal fade" id="details" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header bg-warning">
+						<h5 class="modal-title" id="staticBackdropLabel">Loyalty Card Details</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p><strong>Sorry! This section is under Maintenance.<br>
+						Comeback again once we fix it. Thank You</strong></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="main"class="container">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+				<div class="col mb-4">
+					<div class="card h-100 shadow">
+						<img src="img/Promo1.jpg" class="card-img-top" alt="Promo1">
+						<div class="card-body">
+							<h5 class="card-title">Budget Pizza <span class="badge badge-danger">20.00</span></h5>
+							<p class="card-text">
+								1 Small Pizza<br>
+								1 Small Drink<br>
+								1 Mango pie
+							</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#cart"><strong>Order Now</strong></button>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4">
+					<div class="card h-100 shadow">
+						<img src="img/Promo2.jpg" class="card-img-top" alt="Promo2">
+						<div class="card-body">
+							<h5 class="card-title">Regular Pizza <span class="badge badge-danger">30.00</span></h5>
+							<p class="card-text">
+								1 Small Pizza<br>
+								1 Small Drink<br>
+								1 Mango pie
+							</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#cart"><strong>Order Now</strong></button>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4">
+					<div class="card h-100 shadow">
+						<img src="img/Promo3.jpg" class="card-img-top" alt="Promo3">
+						<div class="card-body">
+							<h5 class="card-title">Family Pizza <span class="badge badge-danger">30.00</span></h5>
+							<p class="card-text">
+								1 Small Pizza<br>
+								1 Small Drink<br>
+								1 Mango pie
+							</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#cart"><strong>Order Now</strong></button>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4">
+					<div class="card h-100 shadow">
+						<img src="img/Promo4.jpg" class="card-img-top" alt="Promo4">
+						<div class="card-body">
+							<h5 class="card-title">Couple Pizza <span class="badge badge-danger">25.00</span></h5>
+							<p class="card-text">
+								1 Small Pizza<br>
+								1 Small Drink<br>
+								1 Mango pie
+							</p>
+						</div>
+						<div class="card-footer">
+							<button type="button" class="btn btn-warning btn-sm btn-block" data-toggle="modal" data-target="#cart"><strong>Order Now</strong></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="cart" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header bg-warning">
+						<h5 class="modal-title" id="staticBackdropLabel">Order Details</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<fieldset class="form-group">
+								<div class="row">
+									<legend class="col-form-label col-sm-2 pt-0">Orders</legend>
+									<div class="col-sm-10">
+										<div class="form-check">
+										<input width="10px" class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+										<label class="form-check-label" for="gridRadios1">
+											Budget Pizza
+										</label>
+										</div>
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+										<label class="form-check-label" for="gridRadios2">
+											Regular Pizza
+										</label>
+										</div>
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
+										<label class="form-check-label" for="gridRadios3">
+											Couple Pizza
+										</label>
+										</div>
+										<div class="form-check">
+										<input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
+										<label class="form-check-label" for="gridRadios3">
+											Family Pizza
+										</label>
+										</div>
+									</div>
+									
+								</div>
+							</fieldset>
+							<div class="form-group">
+								<label for="inputAddress">Address</label>
+								<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="inputCity">City</label>
+									<input type="text" class="form-control" id="inputCity">
+								</div>
+								<div class="form-group col-md-4">
+									<label for="inputState">State</label>
+									<select id="inputState" class="form-control">
+										<option selected>Choose...</option>
+										<option>...</option>
+									</select>
+								</div>
+								<div class="form-group col-md-2">
+									<label for="inputZip">Zip</label>
+									<input type="text" class="form-control" id="inputZip">
+								</div>
+							</div>
+							<button type="submit" class="btn btn-primary">Send Order</button>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer pt-5 border-bottom bg-dark text-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-md-3 pt-5 border-bottom">
+						<h5>Address</h5>
+						<address>
+							121, Clear Water Bay Road<br>
+							Clear Water Bay, Kowloon<br>
+							HONG KONG<br>
+						</address>
+					</div>
+					<div class="col-3 col-md-2 pb-5 pt-5 border-bottom">
+						<h5>Links</h5>
+						<ul class="list-unstyled">
+							<li><a class="text-reset" href="#">Home</a></li>
+							<li><a class="text-reset" href="#">Product</a></li>
+							<li><a class="text-reset" href="#">Services</a></li>
+							<li><a class="text-reset" href="#">Contact</a></li>
+							<li><a class="text-reset" href="#">About Us</a></li>
+						</ul>
+					</div>
+					<div class="col-3 col-md-2 pb-5 pt-5 border-bottom">
+						<h5>Follow Us</h5>
+						<ul class="list-unstyled" id="social-links">
+							<li><a class="text-reset" href=""><span class="fa fa-facebook-square"></span> Facebook</a></li>
+							<li><a class="text-reset" href=""><span class="fa fa-twitter-square"></span> Twitter</a></li>
+							<li><a class="text-reset" href=""><span class="fa fa-google-plus-square"></span> Gmail</a></li>
+							<li><a class="text-reset" href=""><span class="fa fa-github-square"></span> Github</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-5 pt-5 text-center border-bottom pb-5">
+						<p>To receive newsletters and emails,<br>send us your email for more updates and promos</p>
+						<form>
+							<div class="input-group mb-3">
+								<input type="email" class="form-control" placeholder="Email">
+								<div class="input-group-append">
+									<button class="btn btn-warning" type="submit" id="button-addon2">Submit</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-12 text-center pt-2">
+						<p>&copy; Copyright 2022. PizzaHOT | All rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
