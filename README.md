@@ -1,2 +1,2 @@
 # Capstone_Project
-This is a PizzaHoz Capstone Project 
+This is a PizzaHot Capstone Project 
